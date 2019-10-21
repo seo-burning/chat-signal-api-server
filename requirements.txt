@@ -1,0 +1,20 @@
+# Django & RestFramework
+django>=2.2.2
+djangorestframework>=3.9.0
+psycopg2>=2.7.5
+Pillow>=5.3.0
+flake8>=3.6.0
+
+#Authentication
+django-allauth
+django-rest-auth
+
+# S3 Setup
+boto3
+django-storages
+
+#debug
+django-debug-toolbar
+
+#admin
+django-grappelli
