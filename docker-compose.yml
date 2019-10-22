@@ -9,7 +9,7 @@ services:
     volumes:
       - ./app:/app
     command: >
-      sh -c "python manage.py runserver 0.0.0.0:8000 --settings=app.settings.dev"
+      sh -c "python manage.py runserver 0.0.0.0:8000 --settings=app.settings.prod"
     environment:
       - DB_HOST=db
       - DB_NAME=app
